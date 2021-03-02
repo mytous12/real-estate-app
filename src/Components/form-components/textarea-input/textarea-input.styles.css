@@ -1,0 +1,22 @@
+.textarea-input {
+  font-family: inherit;
+}
+
+.textarea-input .label {
+  display: block;
+  font-weight: bold;
+  margin: 0.25vw 0;
+}
+
+.textarea-input .textarea {
+  resize: none;
+  width: 100%;
+  font-size: large;
+  font-family: inherit;
+}
+
+.textarea-input .error {
+  color: #ff3333;
+  font-weight: bold;
+  margin: 0.1vw 0.25vw;
+}

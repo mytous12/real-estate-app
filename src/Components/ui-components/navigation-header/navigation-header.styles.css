@@ -1,0 +1,15 @@
+.navigation-header {
+  display: flex;
+}
+
+.navigation-header .margin-left {
+  margin-left: 1rem;
+}
+
+.navigation-header .margin-right {
+  margin-right: 1rem;
+}
+
+.navigation-header .margin-left-auto {
+  margin-left: auto;
+}

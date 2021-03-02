@@ -1,0 +1,19 @@
+.select-input-group .label {
+  display: block;
+  font-weight: bold;
+  margin: 0.25vw 0;
+}
+
+.select-input-group .select-input {
+  padding: 0.25vw;
+  font-size: medium;
+  font-size: large;
+  font-family: inherit;
+  width: 30%;
+}
+
+.select-input-group .error {
+  color: #ff3333;
+  font-weight: bold;
+  margin: 0.1vw 0.25vw;
+}

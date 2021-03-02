@@ -1,0 +1,13 @@
+.actions {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.actions .edit-profile-btn {
+  margin-right: 1rem;
+}
+
+.actions .dashboard-btn {
+  margin-right: 1rem;
+}

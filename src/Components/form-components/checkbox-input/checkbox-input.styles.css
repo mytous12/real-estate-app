@@ -1,0 +1,18 @@
+.checkbox-input .label {
+  font-weight: normal;
+  font-size: large;
+}
+
+.checkbox-input {
+  font-family: inherit;
+}
+
+.checkbox-input .checkbox {
+  margin-right: 0.5rem;
+}
+
+.checkbox-input .error {
+  color: #ff3333;
+  font-weight: bold;
+  margin: 0.1vw 0.25vw;
+}

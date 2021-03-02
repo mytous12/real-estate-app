@@ -1,0 +1,19 @@
+.form-input-group .label {
+  display: block;
+  font-size: medium;
+  font-weight: bold;
+  margin: 0.25vw 0;
+}
+
+.form-input-group .form-input {
+  width: 100%;
+  padding: 0.25vw;
+  font-family: inherit;
+  font-size: large;
+}
+
+.form-input-group .error {
+  color: #ff3333;
+  font-weight: bold;
+  margin: 0.1vw 0.25vw;
+}

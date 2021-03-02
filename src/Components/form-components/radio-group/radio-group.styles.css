@@ -1,0 +1,12 @@
+.item-selected {
+  background-color: aquamarine;
+  color: red;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.radio-group-label {
+  font-weight: 600;
+}
