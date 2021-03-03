@@ -15,9 +15,9 @@ import {
 // Utils & constant imports
 import errorMessage from 'Messages/errors';
 import { APIHandler } from 'Util/apiHandler';
-import { navigateToLogin } from 'Util/navigation';
 import { headings, success } from 'Messages/index';
 import { getSignUpValidationSchema } from 'Util/validationSchemas';
+import { navigateToAddProperty, navigateToLogin } from 'Util/navigation';
 import {
   apis, httpVerbs, responseCodes, constantValues,
 } from 'Constants/index';
@@ -77,6 +77,7 @@ const Homepage = ({ history }) => {
     <div className="homepage">
       <div className="login-btn">
         <CustomButton type="button" value={constantValues.LOGIN} handleClick={() => navigateToLogin(history)} />
+        <CustomButton type="button" value={constantValues.ADD_PROPERTY} handleClick={() => navigateToAddProperty(history)} />
       </div>
       <div className="form">
         <h1 className="heading">{headings.SIGNUP_FORM}</h1>

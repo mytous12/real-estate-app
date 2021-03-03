@@ -15,7 +15,7 @@ import { getFieldName } from 'Util/utils';
 import { APIHandler } from 'Util/apiHandler';
 import { headings, placeholders } from 'Messages/index';
 import { getLoginValidationSchema } from 'Util/validationSchemas';
-import { navigateToDashboard, navigateToHomepage } from 'Util/navigation';
+import { navigateToAddProperty, navigateToDashboard, navigateToHomepage } from 'Util/navigation';
 import {
   apis, httpVerbs, responseCodes, constantValues, labels, inputTypes,
 } from 'Constants/index';
@@ -52,6 +52,11 @@ const Login = ({ history }) => {
           type={inputTypes.BUTTON}
           value={constantValues.SIGN_UP}
           handleClick={() => navigateToHomepage(history)}
+        />
+        <CustomButton
+          type="button"
+          value={constantValues.ADD_PROPERTY}
+          handleClick={() => navigateToAddProperty(history)}
         />
       </div>
       <div className="form">
